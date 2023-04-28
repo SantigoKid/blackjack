@@ -1,0 +1,69 @@
+body {
+  background: url("https://images.ctfassets.net/pnq4hpds29uh/DDuVpjCykerSdCXcYXtnc/aae20d3989f3cb87b6e1787f57886282/Casino_Generic_5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+h3 {
+  color: rgb(33, 33, 177);
+  font-size: 3rem;
+}
+.container {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+  display: flex;
+  padding: 50px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.flex-blackjack-row-2 div {
+  padding: 10px;
+  flex: 1;
+  height: 350px;
+  text-align: center;
+}
+
+.flex-blackjack-row-2 div img {
+  padding: 10px;
+}
+
+table,
+th,
+td {
+  font-size: 20px;
+  padding: 5px;
+  border: 1px solid white;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+
+.flex-blackjack-row-3 div {
+  padding: 10px;
+}
+
+.flex-blackjack-row-3 button {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#win-header {
+  color: lightgreen;
+}
+
+#loss-header {
+  color: #d32f2f;
+}
+
+#draw-header {
+  color: yellow;
+}
